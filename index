@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roots of Madness</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Roots of Madness</h1>
+    <p><em>This is the only record they couldn’t scrub.</em></p>
+    <p><strong>Log 001:</strong> <a href="audio/Log001.mp3">Play Audio</a></p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roots of Madness</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: monospace;
+      padding: 2rem;
+      text-align: center;
+    }
+    .glitch {
+      font-size: 1.5rem;
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red; }
+      20% { text-shadow: -2px 0 lime; }
+      40% { text-shadow: 2px 2px blue; }
+      60% { text-shadow: -2px -2px red; }
+      80% { text-shadow: 2px -2px lime; }
+      100% { text-shadow: 0 0 blue; }
+    }
+    a {
+      color: #90ee90;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glitch">ROOTS OF MADNESS</h1>
+  <p><em>This is the only record they couldn't scrub.</em></p>
+  <p>They buried everything else. The names. The screams. The mycelium.</p>
+  <p><a href="log1.html">Begin with the first recording.</a></p>
+</body>
+</html>
