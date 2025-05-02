@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ff6347;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.clue {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+    background-color: #333;
+    color: #ff6347;
+}
+
+.clue a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clue a:hover {
+    color: #ff4500;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
